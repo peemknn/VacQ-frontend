@@ -25,7 +25,7 @@ h1,
 h2,
 h3 {
   font-weight: 600;
-  marginbottom: 10px;
+  margin-bottom: 10px;
 }
 .container {
   width: 100%;
@@ -37,7 +37,7 @@ h3 {
 .header {
   display: flex;
   justify-content: space-between;
-  alignitems: center;
+  align-items: center;
   padding: 20px 0;
   border-bottom: 1px solid #e6e6e6;
   margin-bottom: 60px;
@@ -62,8 +62,8 @@ h3 {
 }
 .heading {
   font-size: 2rem;
-  fontweight: 700;
-  margin-bottom: 50px;
+  font-weight: 700;
+  margin-bottom: 30px;
   padding: 0 20px;
 }
 .heading p {
@@ -95,6 +95,8 @@ h3 {
 }
 .form-group {
   margin-bottom: 10px;
+  
+  
 }
 .form-group input,
 .form-group textarea,
@@ -103,7 +105,7 @@ h3 {
   padding: 10px;
   border: 1px solid #e6e6e6;
   border-radius: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   font-family: inherit;
 }
 .form-group label {
@@ -112,17 +114,18 @@ h3 {
   margin: 0 0 5px 3px;
 }
 .btn {
-  padding: 10px 20px;
+  padding: 10px ;
   border: 1px solid #000;
   border-radius: 5px;
   background: #000;
+  width: 100%;
   color: #fff;
   font-size: 16px;
   font-weight: 700;
   cursor: pointer;
   text-align: center;
   appearance: button;
-  display: flex;
+  display: block;
   align-items: center;
   justify-content: center;
 }
@@ -134,7 +137,6 @@ h3 {
   color: #000;
 }
 .btn-block {
-  width: 100%;
   margin-bottom: 20px;
 }
 .btn-sm {
